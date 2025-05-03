@@ -29,3 +29,20 @@ Ensure you have Python 3 installed.
    ```bash
    git clone https://github.com/MortujaMondal/OSINT
    cd OSINT
+## 🌍 Reverse Geolocation
+###  The tool uses the OpenStreetMap Nominatim API to convert GPS coordinates into human-readable locations:
+    -https://nominatim.openstreetmap.org/reverse?format=json&lat={lat}&lon={lon}&zoom=10
+## ❓Why Nominatim?
+  -Free and open-source
+  -No API key required
+  -Respects user privacy
+  -Ideal for offline or privacy-conscious forensics
+  -APIs like Google Maps or Bing Maps were avoided due to key management, quota limits, and privacy concerns.
+
+##📦 Dependencies
+ -exifread – For reading EXIF tags
+ -requests – For performing HTTP requests to Nominatim
+ -argparse – Built-in module for CLI
+
+Install them using:
+  --pip install exifread requests
