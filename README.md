@@ -27,5 +27,5 @@ Ensure you have Python 3 installed.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/exif-metadata-extractor.git
-   cd exif-metadata-extractor
+   git clone https://github.com/MortujaMondal/OSINT
+   cd OSINT
