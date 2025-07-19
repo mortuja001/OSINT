@@ -48,6 +48,6 @@ Install them using:
   --pip install exifread requests
 
 ---
-Reference
+Reference:
 
 ---
