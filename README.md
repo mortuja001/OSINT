@@ -46,3 +46,8 @@ Ensure you have Python 3 installed.
 
 Install them using:
   --pip install exifread requests
+
+---
+Reference:
+
+---
